@@ -1,3 +1,4 @@
+"use client";
 import Categories from "./Categories";
 import Container from "../Container";
 import Logo from "./Logo";
@@ -20,7 +21,7 @@ function Navbar() {
           >
             <Logo />
             <Search />
-            {/* <UserMenu currentUser={currentUser} /> */}
+            <UserMenu />
           </div>
         </Container>
       </div>
